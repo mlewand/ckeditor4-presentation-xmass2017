@@ -41,47 +41,80 @@
 				</section>
 
 				<section>
-					<section>
-						<h1>4.8.0</h1>
+					<h1>4.8.0</h1>
 
-						<p class="fragment fade-in">Balloon toolbar</p>
-						<p class="fragment fade-in">Paste images from Word</p>
-						<p class="fragment fade-in">Clipboard api for edge</p>
-						<p class="fragment fade-in">Minor enhancements requested by the customers</p>
-						<p class="fragment fade-in">Tons of fixes</p>
+					<p class="fragment fade-in">Balloon toolbar</p>
+					<p class="fragment fade-in">Paste images from Word</p>
+					<p class="fragment fade-in">Clipboard api for edge</p>
+					<p class="fragment fade-in">Minor enhancements requested by the customers</p>
+					<p class="fragment fade-in">Tons of fixes</p>
+				</section>
+
+				<section>
+					<section>
+						<h1>4.8.0 - Balloon Toolbar</h1>
+
+						<p>Context manager.</p>
+
+						<ul>
+							<li class="fragment fade-in">widgets</li>
+							<li class="fragment fade-in">CSS selector</li>
+							<li class="fragment fade-in">callbacks - for maximum control</li>
+						</ul>
+
+						<pre class="fragment fade-in">editor.balloonToolbars.create( {
+	buttons: 'Link,Unlink',
+	cssSelector: 'a[href]',
+	widgets: 'image2,placeholder',
+	refresh: function( editor, path, selection ) {
+		return myCustomApp.toolbarsEnabled() &amp;&amp; path.contains( 'a' );
+	}
+} );</pre>
 					</section>
 
 					<section>
 						<h1>4.8.0 - Balloon Toolbar</h1>
 
-						<p class="fragment fade-in">Context manager.</p>
+						<p>Third party skin compatibility.</p>
 
-						<p class="fragment fade-in">
-							Default styling for skins not supporting it - so we avoid a case of Accessibility Checker.
-							<br>
-							<img src="imgs/480/skin-compatibility-flat.png" alt="Balloon Panel compatibility with &quot;flat&quot; skin">
-						</p>
+						<img src="imgs/480/skin-compatibility-flat.png" alt="Balloon Panel compatibility with &quot;flat&quot; skin" class="fragment fade-in">
 					</section>
 
 					<section>
-						<h1>4.8.0 - PFW Images</h1>
+						<h1>4.8.0 - Balloon Toolbar</h1>
 
-						<p>Integrated with upload out of the box so that it works with our backends (CKF3).</p>
+						<p>&quot;Office 2013&quot; skin support.</p>
 
-						<p>On our roadmap we have integration with CS.</p>
+						<img src="imgs/480/skin-compatibility-office-2013.png" alt="Balloon Panel compatibility with &quot;office-2013&quot; skin">
 					</section>
 
 					<section>
-						<h1>4.8.0 - Edge Clipboard</h1>
+						<h1>4.8.0 - Balloon Toolbar</h1>
+
+						<p>&quot;Bootstrapck&quot; skin support.</p>
+
+						<img src="imgs/480/skin-compatibility-bootstrapck.png" alt="Balloon Panel compatibility with &quot;bootstrapck&quot; skin">
 					</section>
+				</section>
 
-					<section>
-						<h1>4.8.0 - Other Changes</h1>
+				<section>
+					<h1>4.8.0 - PFW Images</h1>
 
-						<p>Minor enhancements requested by the customers.</p>
+					<p>Integrated with upload out of the box so that it works with our backends (CKF3).</p>
 
-						<p>Tons of fixes.</p>
-					</section>
+					<p>On our roadmap we have integration with CS.</p>
+				</section>
+
+				<section>
+					<h1>4.8.0 - Edge Clipboard</h1>
+				</section>
+
+				<section>
+					<h1>4.8.0 - Other Changes</h1>
+
+					<p>Minor enhancements requested by the customers.</p>
+
+					<p>Tons of fixes.</p>
 				</section>
 
 				<section>
