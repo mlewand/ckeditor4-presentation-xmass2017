@@ -10,7 +10,7 @@ Links:
 	* offline http://tests.ckeditor.test:1030/tests/plugins/balloontoolbar/context/manual/widget
 * Easy Image:
 	* branch `easyimage-demo`
-	* online http://tests.ckeditor.test:1030/tests/plugins/easyimage/manual/upload
+	* offline (fake upload) http://tests.ckeditor.test:1030/tests/plugins/easyimage/manual/upload
 	* offline http://tests.ckeditor.test:1030/tests/plugins/easyimage/manual/progressbar
 
 
