@@ -14,4 +14,9 @@ Links:
 	* offline http://tests.ckeditor.test:1030/tests/plugins/easyimage/manual/progressbar
 
 
+* Widget features:
+	* branch `simple-box-linking`
+	* offline http://tests.ckeditor.dev:1030/tests/plugins/simplebox/manual/linking
+	* ideas: upload, drag handler, caption (image, embed)
+
 Reference 4.7.3: http://cdn.ckeditor.com/4.7.3/full/samples/
